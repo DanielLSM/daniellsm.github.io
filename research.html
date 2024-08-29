@@ -6,11 +6,62 @@ title: "Research Overview"
 <center>  
   Here's my <a href="https://scholar.google.com/citations?user=sfM-khoAAAAJ&hl=en">Google Scholar</a>. <br>
   Jump to <a href='#publications'> selected publications</a> or <a href='#workshops'>workshops</a>.
+  * (asterisk)- signals authors contributed equally.
 </center>
 
 <div class="divider"></div>
 
 <h2 id='publications' class="page-heading"> Selected Publications</h1>
+
+<div class="row">
+  <div class="six columns">
+    <img style="margin-top:0em" src="/images/research/Sequelframework.png">
+    <table>
+      <tr>          
+        <td><a href="https://ieeexplore.ieee.org/document/10610534">IEEE</a></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="six columns">
+
+    <b> SEQUEL: Semi-Supervised Preference-based RL with Query Synthesis via Latent Interpolation</b>
+    <p> <b>Daniel Marta*</b>, Simon Holk*, Christian Pek, Jana Tumova, and Iolanda Leite <br />
+    ICRA'24 </p>
+  <p> By utilizing semi-supervised learning we can improve the sample-efficiency by augmenting the preferences provided by humans.
+    We train a VAE to learn a latent representation and thereafter synthesise new queries from existing ones by interpolating the
+    trajectory pairs. The idea is that if a user prefers traj A over traj B, even if they are a bit closer (like 10%) they would
+    still prefer it. This helps the feedback generalize better.
+  </p>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<div class="row">
+  <div class="six columns">
+    <img style="margin-top:0em" src="/images/research/POLITE1.png">
+    <table>
+      <tr>          
+        <td><a href="https://ieeexplore.ieee.org/document/10610505">IEEE</a></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="six columns">
+
+    <b> POLITE: Preferences Combined with Highlights in Reinforcement Learning </b>
+    <p> Simon Holk, <b>Daniel Marta</b>, and Iolanda Leite <br />
+    ICRA'24 - <b>Nominated for best HRI paper, best student paper, and best conference paper.</b></p>
+  <p> This paper aims to improve the granularity of preference-based feedback by adding temporal trajectory segmentation
+    to highlight positive and negative parts. This helps avoid the uniform assignment of responsibility across the whole trajectory
+    while it might just be some part that was actually preferred. The highlights are then optimized as an auxiliary task ensuring
+    a improved shared representation.
+  </p>
+  </div>
+</div>
+
+<div class="divider"></div>
 
 <div class="row">
   <div class="six columns">
@@ -26,7 +77,7 @@ title: "Research Overview"
   <div class="six columns">
 
     <b> PREDILECT: Preferences Delineated with Zero-Shot Language-based Reasoning in Reinforcement Learning </b>
-    <p> <b>Simon Holk*</b>, Daniel Marta*, and Iolanda Leite <br />
+    <p> Simon Holk*, <b>Daniel Marta*</b>, and Iolanda Leite <br />
     HRI'24 </p>
   <p> This paper aims to utilize the zero-shot capabilities of LLM in order to increase the granularity
     of preference-based feedback by extending my previous work. By letting the user give optional auxiliary
@@ -39,55 +90,7 @@ title: "Research Overview"
 <div class="divider"></div>
 
 
-<div class="row">
-  <div class="six columns">
-    <img style="margin-top:0em" src="/images/research/POLITE1.png">
-    <table>
-      <tr>          
-        <td><a href="https://ieeexplore.ieee.org/document/10610505">IEEE</a></td>
-      </tr>
-    </table>
-  </div>
 
-  <div class="six columns">
-
-    <b> POLITE: Preferences Combined with Highlights in Reinforcement Learning </b>
-    <p> <b>Simon Holk</b>, Daniel Marta, and Iolanda Leite <br />
-    ICRA'24 - <b>Nominated for best HRI paper, best student paper, and best conference paper.</b></p>
-  <p> This paper aims to improve the granularity of preference-based feedback by adding temporal trajectory segmentation
-    to highlight positive and negative parts. This helps avoid the uniform assignment of responsibility across the whole trajectory
-    while it might just be some part that was actually preferred. The highlights are then optimized as an auxiliary task ensuring
-    a improved shared representation.
-  </p>
-  </div>
-</div>
-
-<div class="divider"></div>
-
-<div class="row">
-  <div class="six columns">
-    <img style="margin-top:0em" src="/images/research/Sequelframework.png">
-    <table>
-      <tr>          
-        <td><a href="https://ieeexplore.ieee.org/document/10610534">IEEE</a></td>
-      </tr>
-    </table>
-  </div>
-
-  <div class="six columns">
-
-    <b> SEQUEL: Semi-Supervised Preference-based RL with Query Synthesis via Latent Interpolation</b>
-    <p> Daniel Marta*, <b>Simon Holk*</b>, Christian Pek, Jana Tumova, and Iolanda Leite <br />
-    ICRA'24 </p>
-  <p> By utilizing semi-supervised learning we can improve the sample-efficiency by augmenting the preferences provided by humans.
-    We train a VAE to learn a latent representation and thereafter synthesise new queries from existing ones by interpolating the
-    trajectory pairs. The idea is that if a user prefers traj A over traj B, even if they are a bit closer (like 10%) they would
-    still prefer it. This helps the feedback generalize better.
-  </p>
-  </div>
-</div>
-
-<div class="divider"></div>
 
 <div class="row">
   <div class="six columns">
