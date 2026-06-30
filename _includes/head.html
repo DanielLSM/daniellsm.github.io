@@ -1,28 +1,28 @@
-<head>    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="google-site-verification" content="Cg8yLhyulyPuQaGVyOIGr3OPgS6NDLSjOB8GbgKRrSY" />
-    
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="Cg8yLhyulyPuQaGVyOIGr3OPgS6NDLSjOB8GbgKRrSY" />
 
-    <title>    {% if page.title %}
-      {{ page.title }} &ndash;
-    {% endif %}
-    {{ site.name }}</title>
-    <meta name="description" content="Daniel Marta's Personal Website'">
+  <title>{% if page.title %}{{ page.title }} &ndash; {% endif %}Daniel Marta</title>
+  <meta name="description" content="Daniel Marta — Ph.D. student at KTH researching preference-based reinforcement learning, human feedback, and human-robot interaction.">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} – {% endif %}Daniel Marta">
+  <meta property="og:description" content="Ph.D. student at KTH researching preference-based reinforcement learning, human feedback, and human-robot interaction.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://daniellsm.github.io{{ page.url }}">
+  <meta property="og:image" content="https://daniellsm.github.io/images/daniel_profile.jpg">
+  <meta name="twitter:card" content="summary">
 
-    <link type="text/css" rel="stylesheet" href="{{site.github.url}}/css/main.css">
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link type="text/css" rel="stylesheet" href="{{site.github.url}}/css/fira_font.css">
-    <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="{{site.github.url}}/css/main.css">
+  <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
- <link rel="shortcut icon" href="{{site.github.url}}/favicon.ico">
+  <link rel="shortcut icon" href="{{site.github.url}}/favicon.ico">
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js"></script>
-<script type="text/javascript" src="{{site.github.url}}/js/menu.js"></script>
-
-{% if jekyll.environment == 'production' %}
-{% include analytics.html %}
-{% endif %}
-
+  {% if jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
 </head>
