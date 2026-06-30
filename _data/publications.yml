@@ -1,5 +1,18 @@
 - year: 2026
   badge: arXiv 2026
+  image: /images/research/uq-vla/overview.png
+  title: "Uncertainty Quantification for Flow-Based Vision-Language-Action Models"
+  authors: "Ralf Römer, Maximilian Seeliger, Saida Liu, Ben Sturgis, Marco Bagatella, <strong>Daniel Marta</strong>, Andreas Krause, and Angela P. Schoellig"
+  venue: "<em>arXiv preprint arXiv:2606.18043</em>, 2026"
+  summary: "Introduces Velocity-Field Disagreement (VFD) for epistemic uncertainty in flow-based VLAs and SAVE, an uncertainty-guided active fine-tuning framework that needs at least 22% fewer expert demonstrations than baselines."
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2606.18043
+    - label: Website
+      url: https://tum-lsy.github.io/uq_vla/
+
+- year: 2026
+  badge: arXiv 2026
   image: /images/research/sdpo.svg
   title: "Reinforcement Learning via Self-Distillation"
   authors: "Jonas Hübotter, Frederike Lübeck*, Lejs Behric*, Anton Baumann*, Marco Bagatella, <strong>Daniel Marta</strong>, Ido Hakimi, Idan Shenfeld, Thomas Kleine Buening, Carlos Guestrin, and Andreas Krause"
