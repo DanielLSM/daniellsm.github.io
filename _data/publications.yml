@@ -8,31 +8,10 @@
   summary: Introduces Velocity-Field Disagreement (VFD) for epistemic uncertainty in flow-based VLAs and SAVE, an uncertainty-guided
     active fine-tuning framework that needs at least 22% fewer expert demonstrations than baselines.
   links:
-  - label: arXiv
+  - label: Paper
     url: https://arxiv.org/abs/2606.18043
   - label: Website
     url: https://tum-lsy.github.io/uq_vla/
-- year: 2026
-  badge: ICML + SPOT 2026
-  image: /images/research/sdpo/sdpo-thumb.png
-  title: Reinforcement Learning via Self-Distillation
-  authors: Jonas Hübotter, Frederike Lübeck*, Lejs Behric*, Anton Baumann*, Marco Bagatella, <strong>Daniel Marta</strong>,
-    Ido Hakimi, Idan Shenfeld, Thomas Kleine Buening, Carlos Guestrin, and Andreas Krause
-  venue: In <em>International Conference on Machine Learning (ICML)</em>, 2026; also accepted to the <em>ICLR 2026 Workshop
-    on Scaling Post-training for LLMs (SPOT)</em>
-  summary: Introduces Self-Distillation Policy Optimization (SDPO), converting rich environment feedback into dense self-distillation
-    signals for more sample-efficient RL with language models.
-  links:
-  - label: ICML
-    url: https://icml.cc/virtual/2026/poster/64121
-  - label: SPOT
-    url: https://iclr.cc/virtual/2026/10013442
-  - label: arXiv
-    url: https://arxiv.org/abs/2601.20802
-  - label: Website
-    url: https://self-distillation.github.io/SDPO.html
-  - label: Code
-    url: https://github.com/lasgroup/SDPO
 - year: 2026
   badge: ICRA 2026
   image: /images/research/mosaic/mosaic-thumb.png
@@ -46,6 +25,27 @@
     url: https://rasevents.org/uploads/documents/pdfviewer/df/bd/218300-2586.pdf
   - label: Project
     url: https://sites.google.com/view/multi-pref/
+- year: 2026
+  badge: ICML + SPOT 2026
+  image: /images/research/sdpo/sdpo-thumb.png
+  title: Reinforcement Learning via Self-Distillation
+  authors: Jonas Hübotter, Frederike Lübeck*, Lejs Behric*, Anton Baumann*, Marco Bagatella, <strong>Daniel Marta</strong>,
+    Ido Hakimi, Idan Shenfeld, Thomas Kleine Buening, Carlos Guestrin, and Andreas Krause
+  venue: In <em>International Conference on Machine Learning (ICML)</em>, 2026; also accepted to the <em>ICLR 2026 Workshop
+    on Scaling Post-training for LLMs (SPOT)</em>
+  summary: Introduces Self-Distillation Policy Optimization (SDPO), converting rich environment feedback into dense self-distillation
+    signals for more sample-efficient RL with language models.
+  links:
+  - label: Paper
+    url: https://arxiv.org/abs/2601.20802
+  - label: ICML
+    url: https://icml.cc/virtual/2026/poster/64121
+  - label: SPOT
+    url: https://iclr.cc/virtual/2026/10013442
+  - label: Website
+    url: https://self-distillation.github.io/SDPO.html
+  - label: Code
+    url: https://github.com/lasgroup/SDPO
 - year: 2024
   badge: ICRA 2024
   image: /images/research/Sequelframework.png
@@ -55,7 +55,7 @@
   summary: Improves preference-learning sample efficiency by augmenting human feedback with synthesized preference queries
     from latent interpolation.
   links:
-  - label: IEEE
+  - label: Paper
     url: https://ieeexplore.ieee.org/document/10610534
 - year: 2024
   badge: ICRA 2024
@@ -66,7 +66,7 @@
   summary: Combines preference feedback with temporal highlights to improve granularity and representation learning. Nominated
     for Best HRI Paper, Best Student Paper, and Best Conference Paper.
   links:
-  - label: IEEE
+  - label: Paper
     url: https://ieeexplore.ieee.org/document/10610505
 - year: 2024
   badge: HRI 2024
@@ -77,40 +77,10 @@
   summary: Uses zero-shot language-model reasoning over optional textual descriptions to align learned rewards with human
     preferences.
   links:
-  - label: arXiv
+  - label: Paper
     url: https://arxiv.org/abs/2402.15420
   - label: ACM
     url: https://dl.acm.org/doi/10.1145/3610977.3634970
-- year: 2023
-  badge: IROS 2023
-  image: /images/research/iros23.png
-  title: 'VARIQuery: VAE Segment-based Active Learning for Query Selection in Preference-based Reinforcement Learning'
-  authors: <strong>Daniel Marta*</strong>, Simon Holk*, Christian Pek, Jana Tumova, and Iolanda Leite
-  venue: In <em>IEEE/RSJ International Conference on Intelligent Robots and Systems</em>, 2023
-  summary: Proposes a VAE-based active-learning strategy for diverse and informative preference-query selection.
-  links:
-  - label: DiVA
-    url: https://www.diva-portal.org/smash/get/diva2:1787953/FULLTEXT01.pdf
-- year: 2023
-  badge: ICRA 2023
-  image: /images/research/icra23.png
-  title: Aligning Human Preferences with Baseline Objectives in Reinforcement Learning
-  authors: <strong>Daniel Marta</strong>, Simon Holk, Christian Pek, Jana Tumova, and Iolanda Leite
-  venue: In <em>IEEE International Conference on Robotics and Automation</em>, 2023
-  summary: Narrows policy search with baseline objectives and requests human feedback when preferences matter most.
-  links:
-  - label: DiVA
-    url: https://www.diva-portal.org/smash/get/diva2:1744884/FULLTEXT01.pdf
-- year: 2021
-  badge: RA-L 2021
-  image: /images/research/ral21.png
-  title: Human-feedback shield synthesis for perceived safety in deep reinforcement learning
-  authors: <strong>Daniel Marta</strong>, Christian Pek, Gaspar I. Melsion, Jana Tumova, and Iolanda Leite
-  venue: In <em>IEEE Robotics and Automation Letters</em>, 2021
-  summary: Learns shield parameters from human feedback to obtain policies perceived as safe.
-  links:
-  - label: DiVA
-    url: https://www.diva-portal.org/smash/get/diva2:1612302/FULLTEXT01.pdf
 - year: 2024
   badge: WACV 2024
   image: /images/research/arxiv1.png
@@ -120,5 +90,35 @@
   summary: Explores few-shot LLM reasoning for inferring autonomous-system requirements from in-cabin natural-language commands.
     Best Student Paper Award.
   links:
-  - label: arXiv
+  - label: Paper
     url: https://arxiv.org/abs/2311.08206
+- year: 2023
+  badge: IROS 2023
+  image: /images/research/iros23.png
+  title: 'VARIQuery: VAE Segment-based Active Learning for Query Selection in Preference-based Reinforcement Learning'
+  authors: <strong>Daniel Marta*</strong>, Simon Holk*, Christian Pek, Jana Tumova, and Iolanda Leite
+  venue: In <em>IEEE/RSJ International Conference on Intelligent Robots and Systems</em>, 2023
+  summary: Proposes a VAE-based active-learning strategy for diverse and informative preference-query selection.
+  links:
+  - label: Paper
+    url: https://www.diva-portal.org/smash/get/diva2:1787953/FULLTEXT01.pdf
+- year: 2023
+  badge: ICRA 2023
+  image: /images/research/icra23.png
+  title: Aligning Human Preferences with Baseline Objectives in Reinforcement Learning
+  authors: <strong>Daniel Marta</strong>, Simon Holk, Christian Pek, Jana Tumova, and Iolanda Leite
+  venue: In <em>IEEE International Conference on Robotics and Automation</em>, 2023
+  summary: Narrows policy search with baseline objectives and requests human feedback when preferences matter most.
+  links:
+  - label: Paper
+    url: https://www.diva-portal.org/smash/get/diva2:1744884/FULLTEXT01.pdf
+- year: 2021
+  badge: RA-L 2021
+  image: /images/research/ral21.png
+  title: Human-feedback shield synthesis for perceived safety in deep reinforcement learning
+  authors: <strong>Daniel Marta</strong>, Christian Pek, Gaspar I. Melsion, Jana Tumova, and Iolanda Leite
+  venue: In <em>IEEE Robotics and Automation Letters</em>, 2021
+  summary: Learns shield parameters from human feedback to obtain policies perceived as safe.
+  links:
+  - label: Paper
+    url: https://www.diva-portal.org/smash/get/diva2:1612302/FULLTEXT01.pdf
