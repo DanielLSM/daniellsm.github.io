@@ -13,23 +13,24 @@
   - label: Website
     url: https://tum-lsy.github.io/uq_vla/
 - year: 2026
-  badge: ICML 2026
-  image: /images/research/sdpo.svg
+  badge: ICML + SPOT 2026
+  image: /images/research/sdpo/sdpo-thumb.png
   title: Reinforcement Learning via Self-Distillation
   authors: Jonas Hübotter, Frederike Lübeck*, Lejs Behric*, Anton Baumann*, Marco Bagatella, <strong>Daniel Marta</strong>,
     Ido Hakimi, Idan Shenfeld, Thomas Kleine Buening, Carlos Guestrin, and Andreas Krause
-  venue: In <em>International Conference on Machine Learning (ICML)</em>, 2026
+  venue: In <em>International Conference on Machine Learning (ICML)</em>, 2026; also accepted to the <em>ICLR 2026 Workshop
+    on Scaling Post-training for LLMs (SPOT)</em>
   summary: Introduces Self-Distillation Policy Optimization (SDPO), converting rich environment feedback into dense self-distillation
-    signals for more sample-efficient RL with language models. Accepted to ICML 2026 and the ICLR 2026 SPOT workshop.
+    signals for more sample-efficient RL with language models.
   links:
   - label: ICML
     url: https://icml.cc/virtual/2026/poster/64121
+  - label: SPOT
+    url: https://iclr.cc/virtual/2026/10013442
   - label: arXiv
     url: https://arxiv.org/abs/2601.20802
   - label: Website
     url: https://self-distillation.github.io/SDPO.html
-  - label: SPOT
-    url: https://iclr.cc/virtual/2026/10013442
   - label: Code
     url: https://github.com/lasgroup/SDPO
 - year: 2026
