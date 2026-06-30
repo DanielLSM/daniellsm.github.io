@@ -1,3 +1,18 @@
+- year: 2026
+  badge: arXiv 2026
+  image: /images/research/sdpo.svg
+  title: "Reinforcement Learning via Self-Distillation"
+  authors: "Jonas Hübotter, Frederike Lübeck*, Lejs Behric*, Anton Baumann*, Marco Bagatella, <strong>Daniel Marta</strong>, Ido Hakimi, Idan Shenfeld, Thomas Kleine Buening, Carlos Guestrin, and Andreas Krause"
+  venue: "<em>arXiv preprint arXiv:2601.20802</em>, 2026"
+  summary: "Introduces Self-Distillation Policy Optimization (SDPO), converting rich environment feedback into dense self-distillation signals for more sample-efficient RL with language models."
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2601.20802
+    - label: Website
+      url: https://self-distillation.github.io/SDPO.html
+    - label: Code
+      url: https://github.com/lasgroup/SDPO
+
 - year: 2024
   badge: ICRA 2024
   image: /images/research/Sequelframework.png
