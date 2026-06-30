@@ -1,0 +1,23 @@
+{% assign max_items = include.limit | default: 999 %}
+<ol class="publication-list">
+  {% for pub in site.data.publications limit:max_items %}
+  <li class="publication">
+    <figure class="pub-media">
+      <span class="venue-badge">{{ pub.badge }}</span>
+      <img src="{{ pub.image }}" alt="{{ pub.title }} thumbnail">
+    </figure>
+    <article class="pub-body">
+      <div class="year-watermark">{{ pub.year }}</div>
+      <h3 class="pub-title">{{ pub.title }}</h3>
+      <p class="pub-authors">{{ pub.authors }}</p>
+      <p class="pub-venue">{{ pub.venue }}</p>
+      <p class="pub-summary">{{ pub.summary }}</p>
+      <div class="pub-links">
+        {% for link in pub.links %}
+        <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>
+        {% endfor %}
+      </div>
+    </article>
+  </li>
+  {% endfor %}
+</ol>
