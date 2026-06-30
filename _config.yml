@@ -1,14 +1,14 @@
 permalink: /posts/:title
 markdown: kramdown
-
+  
 plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
 
-name: Daniel Marta
-url: https://daniellsm.github.io
+name: KTH
+url: daniellsm.github.io
 enforce_ssl: daniellsm.github.io
-description: Daniel Marta's personal website
+description: Daniel's personal website
 
 collections:
   ml:
