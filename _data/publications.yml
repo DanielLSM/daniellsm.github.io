@@ -35,7 +35,7 @@
     url: https://github.com/lasgroup/SDPO
 - year: 2026
   badge: ICRA 2026
-  image: /images/research/mosaic.svg
+  image: /images/research/mosaic/mosaic-thumb.png
   title: 'MOSAIC: Multi-objective Optimization from Zero-Shot Language Reasoning in Preference-based RL'
   authors: <strong>Daniel Marta*</strong>, Simon Holk*, and Iolanda Leite
   venue: In <em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2026
