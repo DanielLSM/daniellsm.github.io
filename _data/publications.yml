@@ -32,6 +32,19 @@
     url: https://iclr.cc/virtual/2026/10013442
   - label: Code
     url: https://github.com/lasgroup/SDPO
+- year: 2026
+  badge: ICRA 2026
+  image: /images/research/mosaic.svg
+  title: 'MOSAIC: Multi-objective Optimization from Zero-Shot Language Reasoning in Preference-based RL'
+  authors: <strong>Daniel Marta*</strong>, Simon Holk*, and Iolanda Leite
+  venue: In <em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2026
+  summary: 'Reframes preference-based RL as multi-objective learning: language explanations are parsed into objective-specific
+    labels, weights, and highlights for scalarized policy optimization.'
+  links:
+  - label: Paper
+    url: https://rasevents.org/uploads/documents/pdfviewer/df/bd/218300-2586.pdf
+  - label: Project
+    url: https://sites.google.com/view/multi-pref/
 - year: 2024
   badge: ICRA 2024
   image: /images/research/Sequelframework.png
