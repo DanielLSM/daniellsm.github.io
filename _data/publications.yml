@@ -48,6 +48,18 @@
     url: https://self-distillation.github.io/SDPO.html
   - label: Code
     url: https://github.com/lasgroup/SDPO
+- year: 2025
+  badge: ICRA 2025
+  image: /images/research/FLORAdiagram.png
+  title: 'FLoRA: Sample-Efficient Preference-based RL via Low-Rank Style Adaptation of Reward Functions'
+  authors: <strong>Daniel Marta*</strong>, Simon Holk*, Miguel Vasco, Jens Lundell, Timon Homberger, Finn Busch, Olov Andersson, Danica Kragic, and Iolanda Leite
+  venue: In <em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2025
+  summary: Adapts reward functions with low-rank style parameters to support preference-based robot adaptation from limited feedback while mitigating catastrophic reward forgetting.
+  links:
+  - label: Paper
+    url: https://arxiv.org/abs/2504.10002
+  - label: Project
+    url: https://sites.google.com/view/preflora/
 - year: 2024
   badge: ICRA 2024
   image: /images/research/Sequelframework.png
