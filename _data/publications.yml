@@ -1,17 +1,19 @@
 - year: 2026
-  badge: arXiv 2026
+  badge: RSS Diff4RL 2026
   image: /images/research/uq-vla/overview.png
   title: Uncertainty Quantification for Flow-Based Vision-Language-Action Models
   authors: Ralf Römer, Maximilian Seeliger, Saida Liu, Ben Sturgis, Marco Bagatella, <strong>Daniel Marta</strong>, Andreas
     Krause, and Angela P. Schoellig
-  venue: <em>arXiv preprint arXiv:2606.18043</em>, 2026
+  venue: Accepted to the <em>RSS 2026 Diff4RL Workshop</em>; arXiv:2606.18043, 2026
   summary: Introduces Velocity-Field Disagreement (VFD) for epistemic uncertainty in flow-based VLAs and SAVE, an uncertainty-guided
     active fine-tuning framework that needs at least 22% fewer expert demonstrations than baselines.
   links:
   - label: Paper
     url: https://arxiv.org/abs/2606.18043
-  - label: Website
+  - label: Project
     url: https://tum-lsy.github.io/uq_vla/
+  - label: OpenReview
+    url: https://openreview.net/forum?id=n4SduYrwk2
 - year: 2026
   badge: ICRA 2026
   image: /images/research/mosaic/mosaic-thumb.png
