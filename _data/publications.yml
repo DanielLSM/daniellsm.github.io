@@ -65,8 +65,8 @@
   title: 'POLITE: Preferences Combined with Highlights in Reinforcement Learning'
   authors: Simon Holk, <strong>Daniel Marta</strong>, and Iolanda Leite
   venue: In <em>IEEE International Conference on Robotics and Automation</em>, 2024
-  summary: Combines preference feedback with temporal highlights to improve granularity and representation learning. Nominated
-    for Best HRI Paper, Best Student Paper, and Best Conference Paper.
+  summary: Combines preference feedback with temporal highlights to improve granularity and representation learning. <strong>Finalist
+    for the ICRA 2024 Best Conference Paper Award, Best Student Paper Award, and Best Paper Award on Human-Robot Interaction.</strong>
   links:
   - label: Paper
     url: https://ieeexplore.ieee.org/document/10610505
