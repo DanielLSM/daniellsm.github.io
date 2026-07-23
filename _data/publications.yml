@@ -6,7 +6,8 @@
     Krause, and Angela P. Schoellig
   venue: Accepted to the <em>RSS 2026 Diff4RL Workshop</em>; arXiv:2606.18043, 2026
   summary: Introduces Velocity-Field Disagreement (VFD) for epistemic uncertainty in flow-based VLAs and SAVE, an uncertainty-guided
-    active fine-tuning framework that needs at least 22% fewer expert demonstrations than baselines.
+    active fine-tuning framework that needs at least 22% fewer expert demonstrations than baselines. <strong>Best Paper
+    Award at the RSS 2026 Workshop on Diffusion for Robot Learning.</strong>
   links:
   - label: Paper
     url: https://arxiv.org/abs/2606.18043
