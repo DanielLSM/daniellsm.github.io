@@ -1,4 +1,19 @@
 - year: 2026
+  badge: arXiv 2026
+  image: /images/research/viola/teaser.png
+  title: 'VioLA: Learning Generalist Humanoid Control Policies from Human Data'
+  authors: Mert Albaba*, Jens Beißwenger*, Anna Manasyan, <strong>Daniel Marta</strong>, Michael J. Black,
+    Wieland Brendel, Andreas Krause, Georg Martius, and Martin Riedmiller
+  venue: arXiv preprint arXiv:2610.12435, 2026
+  summary: Generalist humanoid policy that predicts body and hand motion latents instead of joint commands, letting
+    human recordings supervise the policy in the same action space as robot demonstrations (140.6M frames, 93.2% human).
+    100% zero-shot locomotion and 88.6% manipulation success on a real Unitree G1 without task-specific fine-tuning.
+  links:
+  - label: Paper
+    url: https://arxiv.org/abs/2610.12435
+  - label: Project
+    url: https://viola.is.tue.mpg.de/
+- year: 2026
   badge: RSS Diff4RL 2026
   image: /images/research/uq-vla/overview.png
   title: Uncertainty Quantification for Flow-Based Vision-Language-Action Models
